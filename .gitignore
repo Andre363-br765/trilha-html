@@ -1,0 +1,47 @@
+# ------------------------
+# Ambiente virtual
+# ------------------------
+venv/
+env/
+.venv/
+.env/
+
+# ------------------------
+# Configurações sensíveis
+# ------------------------
+.env
+
+# ------------------------
+# Configurações do editor
+# ------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# Dependências
+# ------------------------
+*.egg-info/
+dist/
+build/
+
+# ------------------------
+# Arquivos de logs
+# ------------------------
+*.log
+
+# ------------------------
+# Arquivos de sistema
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# em andamento
+# ------------------------
+modulo-2
+modulo-3
+1index.html
+public/
+src/
