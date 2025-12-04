@@ -25,6 +25,9 @@
         <a href="#servers">O que são <i>Servers</i>?</a>
       </li>
       <li>
+        <a href="#linguagens">Linguagens de Programação</a>
+      </li>
+      <li>
         <a href="#estrutura">Como é uma estrutura básica de um HTML?</a>
       </li>
       <li>
@@ -271,7 +274,6 @@
     <h2 id="servers">O que são <i>Servers</i>?</h2>
     <small><a href="#indice">voltar</a></small>
 
-    <h2>O que são Servers?</h2>
     <p>
       Os <strong>servers (servidores)</strong> são computadores preparados para
       atender muitos usuários ao mesmo tempo. Eles funcionam de forma diferente
@@ -416,18 +418,187 @@
 
     <hr />
 
+    <h2 id="linguagens">Linguagens de Programação</h2>
+    <small><a href="#indice">voltar</a></small>
+
+    <p>
+      <strong>Linguagem de programação</strong> é uma linguagem
+      <u>específica e formal</u> usada para criar instruções que geram programas
+      (softwares). Cada linguagem possui regras próprias.
+    </p>
+
+    <h3>As 5 linguagens mais populares (segundo RedMonk)</h3>
+    <ol>
+      <li><strong>JavaScript</strong></li>
+      <li><strong>Python</strong></li>
+      <li><strong>Java</strong></li>
+      <li><strong>PHP</strong></li>
+      <li><strong>C#</strong></li>
+    </ol>
+
+    <p>
+      Essas linguagens aparecem no topo das pesquisas por serem muito usadas em
+      desenvolvimento web, mobile, nuvem e aplicações diversas.
+    </p>
+
+    <h3>Linguagens Server-Side</h3>
+    <p>
+      Linguagens <mark>server-side</mark> são executadas no
+      <strong>servidor</strong>, e não no navegador do usuário. Elas processam
+      dados, acessam bancos de dados e constroem páginas dinâmicas.
+    </p>
+
+    <ul>
+      <li>PHP</li>
+      <li>Python (Django, Flask)</li>
+      <li>Node.js (JavaScript no servidor)</li>
+      <li>Java (Spring)</li>
+      <li>C# (ASP.NET)</li>
+      <li>Ruby</li>
+      <li>Go</li>
+    </ul>
+
+    <p>
+      Cada linguagem funciona melhor em certos tipos de servidor. Algumas rodam
+      em qualquer ambiente; outras exigem uma configuração específica.
+    </p>
+
+    <h3>Linguagens Client-Side</h3>
+    <p>
+      Linguagens <mark>client-side</mark> rodam diretamente no
+      <strong>navegador</strong> do usuário. Hoje, a única linguagem realmente
+      client-side é:
+    </p>
+
+    <p><strong>JavaScript</strong></p>
+
+    <p>
+      <i>É o navegador que interpreta o JS e executa as ações na página.</i>
+    </p>
+
+    <h3>JavaScript dos dois lados</h3>
+    <p>
+      JavaScript é especial porque pode rodar tanto no
+      <strong>lado do cliente (browser)</strong>, quanto no
+      <strong>lado do servidor</strong>.
+    </p>
+
+    <blockquote>
+      Isso acontece graças ao motor
+      <abbr title="Motor JavaScript do Google Chrome">V8</abbr> e ao ambiente
+      <strong>Node.js</strong>, que permitem que o JavaScript seja executado
+      fora do navegador.
+    </blockquote>
+
+    <h3>Resumo geral</h3>
+    <ul>
+      <li>
+        <strong>Linguagem de programação:</strong> regras para criar software.
+      </li>
+      <li>
+        <strong>Server-side:</strong> roda no servidor → PHP, Python, Java,
+        Node.js etc.
+      </li>
+      <li><strong>Client-side:</strong> roda no navegador → JavaScript.</li>
+      <li>
+        <strong>JavaScript:</strong> funciona dos dois lados (client + server).
+      </li>
+    </ul>
+
+    <hr />
+
     <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
     <small><a href="#indice">voltar</a></small>
+
     <p>
-      <strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas
-      palavras o que entendeu sobre o assunto. Não esqueça de colocar links para
-      outros sites e também de formatar o texto com <strong>negrito</strong>,
-      <i>itálico</i> e <u>sublinhado</u> quando necessário.
+      <strong>HTML</strong> não é uma linguagem de programação, mas uma
+      <u>linguagem de marcação</u>. Ela serve para estruturar conteúdo na web,
+      assim como arquivos CSV, XML ou Markdown.
     </p>
+
+    <h3>O que é uma tag</h3>
+    <ul>
+      <li>
+        Textos e elementos são delimitados por <strong>tags</strong> que o
+        navegador entende.
+      </li>
+      <li>Cada tag possui função ou comportamento específico.</li>
+      <li>
+        Podem ser criadas em <mark>Bloco de Notas</mark>, <mark>VSCode</mark> ou
+        na ferramenta de desenvolvedor (F12 no Chrome).
+      </li>
+    </ul>
+
+    <h4>Exemplos de tags</h4>
+    <ol>
+      <li><strong>&lt;i&gt;</strong> – texto em <i>itálico</i></li>
+      <li>
+        <strong>&lt;strong&gt;</strong> – texto em <strong>negrito</strong>
+      </li>
+      <li><strong>&lt;u&gt;</strong> – texto <u>sublinhado</u></li>
+      <li><strong>&lt;mark&gt;</strong> – texto marcado/destacado</li>
+      <li><strong>&lt;sub&gt;</strong> – texto subscrito</li>
+      <li><strong>&lt;p&gt;</strong> – parágrafo</li>
+      <li><strong>&lt;blockquote&gt;</strong> – citação de texto</li>
+    </ol>
+
     <p>
-      Não esqueça também de colocar o link para voltar até o índice. (Lembra das
-      âncoras?)
+      Algumas tags não precisam de fechamento, como
+      <strong>&lt;input&gt;</strong> e <strong>&lt;img&gt;</strong>.
     </p>
+
+    <h3>Atributos das tags</h3>
+    <ul>
+      <li>
+        <strong>Globais:</strong> funcionam na maioria das tags (ex.:
+        <code>id</code>, <code>class</code>)
+      </li>
+      <li>
+        <strong>Específicos:</strong> só funcionam em algumas tags (ex.:
+        <code>src</code> em <strong>&lt;img&gt;</strong>)
+      </li>
+    </ul>
+
+    <h3>Hierarquia e tipografia</h3>
+    <ul>
+      <li>
+        <strong>&lt;h1&gt;</strong> até <strong>&lt;h6&gt;</strong> – títulos e
+        subtítulos
+      </li>
+      <li><strong>&lt;p&gt;</strong> – parágrafos</li>
+      <li>
+        <strong>&lt;i&gt;</strong>, <strong>&lt;strong&gt;</strong>,
+        <strong>&lt;u&gt;</strong>, <strong>&lt;mark&gt;</strong>,
+        <strong>&lt;sub&gt;</strong> – formatações dentro de parágrafos
+      </li>
+      <li><strong>&lt;blockquote&gt;</strong> – citação de texto</li>
+    </ul>
+
+    <p>Exemplo de uso dentro de um parágrafo:</p>
+    <pre><code>&lt;p&gt;Isso é um &lt;strong&gt;texto em negrito&lt;/strong&gt; dentro de um parágrafo.&lt;/p&gt;</code></pre>
+
+    <h3>Estrutura mínima de um HTML</h3>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;title&gt>Meu HTML&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- Conteúdo vai aqui --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <blockquote>
+      <small>Explicação:</small> <br />
+      <strong>&lt;!DOCTYPE html&gt;</strong> → define o tipo do documento <br />
+      <strong>&lt;html lang="pt-BR"&gt;</strong> → idioma da página <br />
+      <strong>&lt;head&gt;</strong> → informações da página (metadados) <br />
+      <strong>&lt;title&gt;</strong> → título que aparece na aba do navegador
+      <br />
+      <strong>&lt;body&gt;</strong> → todo o conteúdo visível da página
+    </blockquote>
 
     <hr />
 
@@ -437,20 +608,101 @@
     <small><a href="#indice">voltar</a></small>
 
     <p>
-      <strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas
-      palavras o que entendeu sobre o assunto. Não esqueça de colocar links para
-      outros sites e também de formatar o texto com <strong>negrito</strong>,
-      <i>itálico</i> e <u>sublinhado</u> quando necessário.
+      Listas são usadas para organizar conteúdos que seguem uma ordem ou não.
+      Existem dois tipos principais:
     </p>
+
+    <ul>
+      <li>
+        <strong>Lista ordenada (&lt;ol&gt;)</strong> – cada item é numerado
+        automaticamente.
+      </li>
+      <li>
+        <strong>Lista não ordenada (&lt;ul&gt;)</strong> – cada item é marcado
+        com uma bolinha ou outro marcador, sem numeração.
+      </li>
+    </ul>
+
     <p>
-      Não esqueça também de colocar o link para voltar até o índice. (Lembra das
-      âncoras?)
+      Para que o navegador entenda os itens da lista, é necessário usar a tag
+      <strong>&lt;li&gt;</strong> dentro de <strong>&lt;ol&gt;</strong> ou
+      <strong>&lt;ul&gt;</strong>.
     </p>
+
+    <h3>Exemplos</h3>
+
+    <p><strong>Lista ordenada (&lt;ol&gt;)</strong>:</p>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <p><strong>Lista não ordenada (&lt;ul&gt;)</strong>:</p>
+    <ul>
+      <li>Item A</li>
+      <li>Item B</li>
+      <li>Item C</li>
+    </ul>
+
+    <blockquote>
+      <small
+        >As listas ajudam a organizar informações de forma clara e legível para
+        o usuário.</small
+      >
+    </blockquote>
 
     <hr />
 
     <h2 id="links">Links de referências</h2>
     <small><a href="#indice">voltar</a></small>
+
+    <p>
+      Links (ou hiperlinks) permitem navegar para outro lugar, seja na mesma
+      página ou em outra. São criados com a tag
+      <strong>&lt;a&gt;</strong> (âncora).
+    </p>
+
+    <p><strong>Atributos importantes:</strong></p>
+    <ul>
+      <li>
+        <strong>href</strong> – define o destino do link (URL ou âncora na
+        página).
+      </li>
+      <li>
+        <strong>target</strong> – define onde o link será aberto:
+        <ul>
+          <li>_blank → abre em uma nova aba/janela.</li>
+          <li>_self → abre na mesma aba (padrão).</li>
+        </ul>
+      </li>
+      <li>
+        <strong>title</strong> – exibe uma dica (tooltip) ao passar o mouse
+        sobre o link.
+      </li>
+    </ul>
+
+    <p><strong>Exemplos de uso:</strong></p>
+    <ul>
+      <li>
+        <a href="https://www.google.com" target="_blank" title="Google"
+          >Acesse o Google</a
+        >
+      </li>
+      <li>
+        <a href="#indice" target="_self" title="Voltar ao índice"
+          >Voltar ao índice</a
+        >
+      </li>
+    </ul>
+
+    <blockquote>
+      <small
+        >Os links ajudam a criar navegação entre páginas e seções, melhorando a
+        experiência do usuário.</small
+      >
+    </blockquote>
+
     <p>
       <strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que
       falam sobre estes assuntos. Não esquece de que precisa abrir em outra
@@ -458,8 +710,9 @@
     </p>
 
     <ul>
-      <li><a href="#">http://dio.me</a></li>
-      <li><a href="#">http://w3c.org</a></li>
+      <li><a href="http://dio.me" target="_blank">dio</a></li>
+      <li><a href="http://w3c.org" target="_blank">w3c</a></li>
+      <li><a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp" target="_blank">w3schools</a></li>
     </ul>
     <h6>Conteúdo criado para o Desafio de Projeto da DIO.</h6>
   </body>

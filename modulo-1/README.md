@@ -1,16 +1,54 @@
-# Trilha HTML - Dio.me
-## Módulo 01 - Primeiros passos com HTML
+Perfeito! Para esse projeto, o **README** deve ser claro, objetivo e conter informações sobre o que o projeto é, como visualizar e quais tecnologias/tags foram usadas. Vou te sugerir um modelo completo adaptado para seu projeto do Módulo I de HTML na DIO:
 
-A ideia deste desafio é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas até então. 
+---
 
-Utilizar todas as tags explicadas nas aulas: `<h1>` até `<h6>`, `<p>`, `<mark>`, `<small>`, `<i>`, `<u>`, `<strong>`, `<ol>`, `<ul>`, `<li>`, `<a>`, `<hr>`, `<sub>`, `<sup>`, `<blockquote>`
+# Trilha HTML - DIO.me
 
-Utilizar novas tags sugeridas: `<font>`, `<del>`, `<p>`, `<abbr>` (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto)
+## Módulo I - Primeiros Passos com HTML
 
-Importante dizer que, estas tags te "seguirão" durante TODO O CURSO, por isso, é bom que esteja bem aprendidas para aproveitarem ao máximo as próximas aulas.
+### Descrição do projeto
 
-Este desafio vai fazer com que tenha dúvidas, o que é ótimo! Aos poucos você vai evoluindo na sua jornada.
+Este projeto é um **website educacional simples**, criado como parte do desafio do **Módulo I da Trilha HTML da DIO**.
+O objetivo foi praticar o uso de **tags básicas e algumas adicionais do HTML**, criando uma página estruturada e organizada, com conteúdos sobre história dos computadores, clientes, servidores, linguagens de programação, estrutura HTML, listas e links de referência.
 
-Após concluído este desafio! Siga para o <strong>Módulo II - Conceitos Básicos.</strong>
+---
 
-Nos vemos lá!
+### Funcionalidades
+
+* Índice com navegação interna (links para seções da página).
+* Estrutura hierárquica com títulos (`<h1>` a `<h6>`).
+* Listas ordenadas e não ordenadas (`<ol>` e `<ul>`).
+* Uso de formatação de texto: `<strong>`, `<i>`, `<u>`, `<mark>`, `<sub>`, `<sup>`.
+* Citações com `<blockquote>`.
+* Atributos de link como `href`, `target` e `title`.
+* Tags adicionais aprendidas: `<font>`, `<del>`, `<abbr>`.
+
+---
+
+### Tecnologias utilizadas
+
+* **HTML5** – estruturação do conteúdo.
+* **Tags semânticas** – para organizar texto e elementos.
+
+---
+
+### Como visualizar
+
+1. Clone ou baixe este repositório.
+2. Abra o arquivo `index.html` em qualquer navegador (Chrome, Firefox, Edge, Safari).
+3. Navegue pelas seções usando o índice e explore os exemplos de tags.
+
+---
+
+### Observações
+
+* Este projeto é parte do **Desafio de Projeto do Módulo I da DIO**.
+* O objetivo principal é **praticar e fixar o uso de tags HTML** para módulos futuros.
+* Todo o conteúdo foi criado com fins educacionais.
+
+---
+
+### Autor
+
+* Seu Nome ou Nickname: `Olho Cósmico`
+* Plataforma: [DIO.me](https://www.dio.me)
