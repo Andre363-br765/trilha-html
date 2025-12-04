@@ -1,7 +1,3 @@
-Perfeito! Para esse projeto, o **README** deve ser claro, objetivo e conter informações sobre o que o projeto é, como visualizar e quais tecnologias/tags foram usadas. Vou te sugerir um modelo completo adaptado para seu projeto do Módulo I de HTML na DIO:
-
----
-
 # Trilha HTML - DIO.me
 
 ## Módulo I - Primeiros Passos com HTML
@@ -52,3 +48,7 @@ O objetivo foi praticar o uso de **tags básicas e algumas adicionais do HTML**,
 
 * Seu Nome ou Nickname: `Olho Cósmico`
 * Plataforma: [DIO.me](https://www.dio.me)
+
+## 🔗 Link do Projeto
+
+[Veja o projeto aqui]()
