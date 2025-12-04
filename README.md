@@ -51,4 +51,4 @@ O objetivo foi praticar o uso de **tags básicas e algumas adicionais do HTML**,
 
 ## 🔗 Link do Projeto
 
-[Veja o projeto aqui]()
+[Veja o projeto aqui](https://andre363-br765.github.io/trilha-html/)
